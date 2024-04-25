@@ -970,8 +970,8 @@ letter-spacing: 6px;
     :root{
         --top_span: 0px;
         --Font: 60px;
-        --top_candle: 350px;
-        --top_cake:320px;
-        --top_plate: 450px;
+        --top_candle: 389px;
+        --top_cake: 368px;
+        --top_plate: 496px;
     }
 }
