@@ -11,6 +11,12 @@
   box-sizing: border-box;
 }
 
+h1{
+   text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
 img,
 video,
 svg {
