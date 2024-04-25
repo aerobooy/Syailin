@@ -954,7 +954,28 @@ letter-spacing: 6px;
       margin-left: 80%;
     }
   }
-/*}*/
+
+
+button{
+    position: relative;
+    top: var(--top_button);
+    border-radius: 20px;
+    border: #ffffff 1px solid;
+    background: linear-gradient(to left, #e2b8f7, #d4bafa, #c7bcfb, #b9befb, #acbff9);
+    padding: 10px;
+    height: 52px;
+    left: 32%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    background: -webkit-linear-gradient(90deg, rgb(233, 230, 255) 0%, rgb(255, 255, 255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Pacifico", cursive;
+}
 
 @media screen and (min-width: 670px) {
 :root{
@@ -963,6 +984,7 @@ letter-spacing: 6px;
 --top_candle: 280px;
  --top_cake: 250px;
  --top_plate: 380px;
+   --top_button:  440px;
 }
 }
 /*Celular*/
@@ -973,5 +995,6 @@ letter-spacing: 6px;
         --top_candle: 389px;
         --top_cake: 368px;
         --top_plate: 496px;
+      --top_button:  495px;
     }
 }
