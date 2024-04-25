@@ -61,8 +61,8 @@ main {
 
 .cover {
   position: absolute;
-  border-left: 200px solid transparent;
-  border-right: 200px solid transparent;
+  border-left: 45vw solid transparent;
+  border-right: 45vw solid transparent;
   border-top: 100px solid #fe3334;
   border-bottom: 100px solid transparent;
 
@@ -79,15 +79,15 @@ main {
   /*  */
   z-index: -1;
   background: white;
-  width: 390px;
   height: 180px;
-
+  overflow: hidden;
+  width: fit-content;
   transition: all .75s;
 }
 
 .letter {
-  border-left: 200px solid #ff989e;
-  border-right: 200px solid #ff989e;
+  border-left: 45vw solid #ff989e;
+  border-right: 45vw solid #ff989e;
   border-top: 100px solid transparent;
   border-bottom: 100px solid #ff858a;
 }
@@ -125,7 +125,7 @@ main {
     top: 0;
   }
   100% {
-    top: -120px;
+    top: -200px;
   }
 }
 
@@ -135,7 +135,7 @@ main {
 
 @keyframes closePaper {
   0% {
-    top: -120px;
+    top: -200px;
   }
   100% {
     top: 0;
