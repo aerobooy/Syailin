@@ -84,7 +84,6 @@ main {
   line-height: 2rem;
   right: 5px;
   /*  */
-  z-index: -1;
     background: white;
     max-height: 170px;
     overflow: hidden;
