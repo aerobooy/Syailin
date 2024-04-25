@@ -671,7 +671,7 @@ letter-spacing: 6px;
   }
   .cake {
     position: relative;
-    top: 250px;
+    top: var(--top_cake);
     margin: auto;
     width: 200px;
     height: 60px;
@@ -686,7 +686,7 @@ letter-spacing: 6px;
     width: 300px;
     bottom: -95px;
     left: 50%;
-    top: 380px;
+    top: var(--top_plate);
     margin-left: -150px;
     border-radius: 100%;
     background: radial-gradient(ellipse closest-side at center, rgb(8, 199, 254) 0%, rgb(4, 215, 242) 71%, rgb(2, 255, 208) 100%);
@@ -697,7 +697,7 @@ letter-spacing: 6px;
     position: relative;
     height: 50px;
     width: 12px;
-    top: 280px;
+    top: var(--top_candle);
     margin: auto;
     background: linear-gradient(0deg, rgb(183, 244, 167) 0%, rgb(255, 255, 255) 100%);
     border-radius: 4px;
@@ -960,6 +960,9 @@ letter-spacing: 6px;
 :root{
  --Font: 90px;
  --top_span: 70px;
+--top_candle: 280px;
+ --top_cake: 250px;
+ --top_plate: 380px;
 }
 }
 /*Celular*/
@@ -967,5 +970,8 @@ letter-spacing: 6px;
     :root{
         --top_span: 0px;
         --Font: 60px;
+        --top_candle: 350px;
+        --top_cake:320px;
+        --top_plate: 450px;
     }
 }
