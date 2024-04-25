@@ -84,11 +84,13 @@ main {
   right: 5px;
   /*  */
   z-index: -1;
-  background: white;
-  height: 180px;
-  overflow: hidden;
-  width: fit-content;
-  transition: all .75s;
+    background: white;
+    max-height: 261px;
+    overflow: hidden;
+    width: fit-content;
+    transition: all .75s;
+    overflow-y: scroll;
+    padding-bottom: 20px;
 }
 
 .letter {
