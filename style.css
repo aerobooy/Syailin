@@ -168,6 +168,10 @@ main {
 
   animation: crecer 1s forwards ;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 @keyframes crecer {
   0% {
