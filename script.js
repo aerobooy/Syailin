@@ -51,7 +51,7 @@ btnCloseElement.addEventListener('click', ()=> {
   paperElement.classList.add('close-paper')
   
   setTimeout(()=>{
-    coverElement.style.zIndex = 0
+    coverElement.style.zIndex = 1
     coverElement.classList.remove('open-cover')
 
     // animacion del corazón
