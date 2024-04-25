@@ -163,7 +163,7 @@ main {
   left: 46.5%;
   margin: auto;
   font-size: 3rem;
-
+  z-index: 3;
   color: #fe3334;
 
   animation: crecer 1s forwards ;
